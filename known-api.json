@@ -1,0 +1,178 @@
+{
+	"description": "List of known APIs",
+	"version": "1.0.1",
+	"known_ocxs": [
+		{
+			"name": "ImDate",
+			"ocx": "date60.ocx",
+			"implemented": false
+		},
+		{
+			"name": "ImMask",
+			"ocx": "mask60.ocx",
+			"implemented": false
+		},
+		{
+			"name": "ImTime",
+			"ocx": "time60.ocx",
+			"implemented": false
+		},
+		{
+			"name": "ImText",
+			"ocx": "text60.ocx",
+			"implemented": false
+		},
+		{
+			"name": "ImNumber",
+			"ocx": "number60.ocx",
+			"implemented": false
+		},
+		{
+			"name": "FPSpread 3.0",
+			"ocx": "fpspr30.ocx",
+			"implemented": true
+		},
+		{
+			"name": "FPSpread 7.0 (need to map to SpreadJS)",
+			"ocx": "fpspr70.ocx",
+			"implemented": false
+		},
+		{
+			"name": "FPSpread 7.0 (dependency?)",
+			"ocx": "ss70pp.dll",
+			"implemented": false
+		},
+		{
+			"name": "Microsoft DAO (MS Access)",
+			"ocx": "dao360.dll",
+			"implemented": true
+		},
+		{
+			"name": "Microsoft ActiveX Data Objects 2.5 Library (ADODB.*)",
+			"ocx": "msado25.tlb",
+			"implemented": false
+		},
+		{
+			"name": "Microsoft ActiveX Data Objects 2.8 Library (ADODB.*)",
+			"ocx": "msado28.tlb",
+			"implemented": false
+		},
+		{
+			"name": "3D Panel controls (panel, button, etc)",
+			"ocx": "threed20.ocx",
+			"implemented": false
+		},
+		{
+			"name": "OLE Automation",
+			"ocx": "stdole2.tbl",
+			"implemented": false
+		},
+		{
+			"name": "Microsoft Windows Common Controls (TabStrip, StatusBar, ToolBar, ProgressBar, etc)",
+			"ocx": "mscomctl.ocx",
+			"implemented": false
+		},
+		{
+			"name": "SpinButton",
+			"ocx": "spin32.ocx",
+			"implemented": false
+		},
+		{
+			"name": "Micrsoft Data Bound Grid Control (e.g. MSGrid.Grid)",
+			"ocx": "dbgrid32.ocx",
+			"implemented": false
+		},
+		{
+			"name": "Microsoft Common Dialog",
+			"ocx": "comdlg32.ocx",
+			"implemented": false
+		},
+		{
+			"name": "Microsoft Remmote Data Object",
+			"ocx": "msrdo32.dll",
+			"implemented": false
+		},
+		{
+			"name": "Window Script Host Object Model (FileSystemObject, etc)",
+			"ocx": "wshom.ocx",
+			"implemented": false,
+			"supported": false
+		},
+		{
+			"name": "FlexGrid (VSFlex6Ctl.vsFlexGrid)",
+			"ocx": "vsflex6.ocx",
+			"implemented": false,
+			"supported": true
+		},
+		{
+			"name": "MicroHelp Gauge Control (GaugeLib.Gauge)",
+			"ocx": "gauge32.ocx",
+			"implemented": false
+		},
+		{
+			"name": "Microsoft RemoteData Control",
+			"ocx": "msrdc20.ocx",
+			"implemented": false
+		},
+		{
+			"name": "Microsoft Data Bound List Control (MSDBCtls.DBCombo, MSDBCtls.DBList, MSRDC.MSRDC",
+			"ocx": "dblist32.ocx",
+			"implemented": false
+		},
+		{
+			"name": "Microsoft Data Binding Collection (MSBind.*)",
+			"ocx": "msbind.dll",
+			"implemented": false
+		},
+		{
+			"name": "Microsoft Multimeda Control",
+			"ocx": "mci32.ocx",
+			"implemented": false,
+			"supported": false
+		},
+		{
+			"name": "Microsoft Data Formatting Object Library",
+			"ocx": "msstdfmt.dll",
+			"implemented": false
+		},
+		{
+			"name": "FpSread (FpSpread.vaSpread), need to map to SpreadJS",
+			"ocx": "spr32x30.ocx",
+			"implemented": false
+		},
+		{
+			"name": "Microsoft Windows Common Controls (TabStrip, StatusBar, ToolBar, ProgressBar, etc)",
+			"ocx": "comctl32.ocx",
+			"implemented": false
+		},
+		{
+			"name": "Microsoft Maksed Edit Control (MaskEdBox)",
+			"ocx": "msmask32.ocx",
+			"implemented": false
+		},
+		{
+			"name": "Microsoft Grid Control",
+			"ocx": "grid32.ocx",
+			"implemented": false
+		},
+		{
+			"name": "Microsoft Windows Common Control (MonthView, DatePicker, etc)",
+			"ocx": "mscomct2.ocx",
+			"implemented": false
+		},
+		{
+			"name": "Microsoft Tabbed Dialog Control (SSTab)",
+			"ocx": "tabctl32.ocx",
+			"implemented": false
+		},
+		{
+			"name": "TrueDBGrid",
+			"ocx": "tdbg6.ocx",
+			"implemented": false,
+			"supported": false
+		}
+	],
+	"supported_objects": [
+		"Excel.Application"
+	]
+}
