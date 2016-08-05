@@ -1,6 +1,6 @@
 {
 	"description": "List of known APIs",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"known_ocxs": [
 		{
 			"name": "ImDate",
@@ -88,8 +88,13 @@
 			"implemented": false
 		},
 		{
-			"name": "Microsoft Remmote Data Object",
+			"name": "Microsoft Remote Data Object",
 			"ocx": "msrdo32.dll",
+			"implemented": false
+		},
+		{
+			"name": "Microsoft Remote Data Object",
+			"ocx": "msrdo20.dll",
 			"implemented": false
 		},
 		{
@@ -170,6 +175,16 @@
 			"ocx": "tdbg6.ocx",
 			"implemented": false,
 			"supported": false
+		},
+		{
+			"name": "Oracle OO4O In process DB",
+			"ocx": "oip10.dll",
+			"implemented": true
+		},
+		{
+			"name": "Oracle OO4O In process DB",
+			"ocx": "oip10.tlb",
+			"implemented": true
 		}
 	],
 	"supported_objects": [
