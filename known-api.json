@@ -1,6 +1,6 @@
 {
 	"description": "List of known APIs",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"known_ocxs": [
 		{
 			"name": "ImDate",
@@ -177,6 +177,18 @@
 			"supported": false
 		},
 		{
+			"name": "ComponentOne TrueDBGrid",
+			"ocx": "xarray32.ocx",
+			"implemented": false,
+			"supported": false
+		},
+		{
+			"name": "ComponentOne XArrayDB",
+			"ocx": "xarraydb.ocx",
+			"implemented": false,
+			"supported": false
+		},
+		{
 			"name": "Oracle OO4O In process DB",
 			"ocx": "oip10.dll",
 			"implemented": true
@@ -185,9 +197,50 @@
 			"name": "Oracle OO4O In process DB",
 			"ocx": "oip10.tlb",
 			"implemented": true
+		},
+		{
+			"name": "CoReport",
+			"ocx": "crcore.dll",
+			"implemented": false,
+			"supported": false
+		},
+		{
+			"name": "CoReport",
+			"ocx": "crdraw.ocx",
+			"implemented": false,
+			"supported": false
+		},
+		{
+			"name": "CoReport",
+			"ocx": "crview.ocx",
+			"implemented": false,
+			"supported": false
+		},
+		{
+			"name": "Sheridan Software Systems, Inc. SSSplitter ActiveX Control",
+			"ocx": "splitter.ocx",
+			"implemented": false,
+			"supported": false
+		},
+		{
+			"name": "ARK Date 2.0",
+			"ocx": "arkdate.ocx",
+			"implemented": false,
+			"supported": false
+		},
+		{
+			"name": "ARK Number 2.0",
+			"ocx": "arknumbr.ocx",
+			"implemented": false,
+			"supported": false
+		},
+		{
+			"name": "Microsoft Internet Explorer control",
+			"ocx": "ieframe.dll",
+			"implemented": false,
+			"supported": false
 		}
 	],
 	"supported_objects": [
-		"Excel.Application"
 	]
 }
