@@ -1,6 +1,6 @@
 {
 	"description": "List of known APIs",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"known_ocxs": [
 		{
 			"name": "ImDate",
@@ -64,7 +64,7 @@
 		},
 		{
 			"name": "OLE Automation",
-			"ocx": "stdole2.tbl",
+			"ocx": "stdole2.tlb",
 			"implemented": false
 		},
 		{
