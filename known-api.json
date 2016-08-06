@@ -1,6 +1,6 @@
 {
 	"description": "List of known APIs",
-	"version": "1.0.4",
+	"version": "1.0.5",
 	"known_ocxs": [
 		{
 			"name": "ImDate",
@@ -48,6 +48,11 @@
 			"implemented": true
 		},
 		{
+			"name": "Microsoft DAO (MS Access)",
+			"ocx": "dao350.dll",
+			"implemented": true
+		},
+		{
 			"name": "Microsoft ActiveX Data Objects 2.5 Library (ADODB.*)",
 			"ocx": "msado25.tlb",
 			"implemented": false
@@ -71,6 +76,22 @@
 			"name": "Microsoft Windows Common Controls (TabStrip, StatusBar, ToolBar, ProgressBar, etc)",
 			"ocx": "mscomctl.ocx",
 			"implemented": false
+		},
+		{
+			"name": "Microsoft Windows Common Controls (TabStrip, StatusBar, ToolBar, ProgressBar, etc)",
+			"ocx": "comct332.ocx",
+			"implemented": false
+		},
+		{
+			"name": "ADO Data Control",
+			"ocx": "msadodc.ocx",
+			"implemented": false
+		},
+		{
+			"name": "ADO Data Control",
+			"ocx": "mswinsck.ocx",
+			"implemented": false,
+			"supported": false
 		},
 		{
 			"name": "SpinButton",
@@ -239,6 +260,50 @@
 			"ocx": "ieframe.dll",
 			"implemented": false,
 			"supported": false
+		},
+		{
+			"name": "ActiveReport",
+			"ocx": "actrpt15j.dll",
+			"implemented": false,
+			"supported": false
+		},
+		{
+			"name": "Microsoft FlexGrid",
+			"ocx": "msflxgrd.ocx",
+			"implemented": false
+		},
+		{
+			"name": "Microsoft FlexGrid",
+			"ocx": "mshflxgd.ocx",
+			"implemented": false
+		},
+		{
+			"name": "Microsoft FlexGrid Wizard",
+			"ocx": "flexwiz.ocx",
+			"implemented": false,
+			"supported": false
+		},
+		{
+			"name": "Microsoft Comm Control",
+			"ocx": "mscomm32.ocx",
+			"implemented": false,
+			"supported": false
+		},
+		{
+			"name": "FlUpl Control Library (File upload?)",
+			"ocx": "flupl.ocx",
+			"implemented": false,
+			"supported": false
+		},
+		{
+			"name": "Rich TextBox Control",
+			"ocx": "richtx32.ocx",
+			"implemented": false
+		},
+		{
+			"name": "Microsoft PictureClip Control",
+			"ocx": "picclp32.ocx",
+			"implemented": false
 		}
 	],
 	"supported_objects": [
