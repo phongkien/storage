@@ -1,6 +1,6 @@
 {
 	"description": "List of known APIs",
-	"version": "1.0.5",
+	"version": "1.0.6",
 	"known_ocxs": [
 		{
 			"name": "ImDate",
@@ -25,6 +25,31 @@
 		{
 			"name": "ImNumber",
 			"ocx": "number60.ocx",
+			"implemented": false
+		},
+		{
+			"name": "ImDate",
+			"ocx": "date70.ocx",
+			"implemented": false
+		},
+		{
+			"name": "ImMask",
+			"ocx": "mask70.ocx",
+			"implemented": false
+		},
+		{
+			"name": "ImTime",
+			"ocx": "time70.ocx",
+			"implemented": false
+		},
+		{
+			"name": "ImText",
+			"ocx": "text70.ocx",
+			"implemented": false
+		},
+		{
+			"name": "ImNumber",
+			"ocx": "number70.ocx",
 			"implemented": false
 		},
 		{
