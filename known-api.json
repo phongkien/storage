@@ -1,6 +1,36 @@
 {
 	"description": "List of known APIs",
-	"version": "1.0.6",
+	"version": "1.0.7",
+	"source_url": "https://raw.githubusercontent.com/phongkien/storage/master/known-api.json",
+	"version_info_url": "https://raw.githubusercontent.com/phongkien/storage/master/version.txt",
+	"supported_controls": [
+		"VB.*",
+		"FPSpreadADO.fpSpread",
+		"FPSpread.vaSpread",
+		"*.imDate",
+		"*.imMask",
+		"*.imText",
+		"*.imNumber",
+		"TagDlg.SSTab",
+		"Spin.SpinButton",
+		"MSComDlg.CommonDialog",
+		"MSComctlLib.ProgressBar",
+		"MSComctlLib.StatusBar",
+		"MSComctlLib.Toolbar",
+		"Threed.SSPanel",
+		"Threed.SSCommand",
+		"Threed.SSFrame",
+		"Threed.SSOption",
+		"ComctlLib.ProgressBar",
+		"ComctlLib.StatusBar",
+		"ComctlLib.Toolbar",
+		"ComctlLib.ImageList",
+		"ComctlLib.TabStrip",
+		"MSGrid.Grid",
+		"MSMask.MaskEdBox",
+		"*.vsFlexGrid",
+		"MSAdodcLib.Adodc"
+	],
 	"known_ocxs": [
 		{
 			"name": "ImDate",
@@ -68,12 +98,12 @@
 			"implemented": false
 		},
 		{
-			"name": "Microsoft DAO (MS Access)",
+			"name": "Microsoft Data Access Components (MS Access, ODBC, etc)",
 			"ocx": "dao360.dll",
 			"implemented": true
 		},
 		{
-			"name": "Microsoft DAO (MS Access)",
+			"name": "Microsoft Data Access Components (MS Access, ODBC, etc)",
 			"ocx": "dao350.dll",
 			"implemented": true
 		},
@@ -332,5 +362,11 @@
 		}
 	],
 	"supported_objects": [
+	],
+	"async_requests": [
+		"createdynaset","dbcreatedynaset","openrecordset"
+	],
+	"transactions": [
+		"begintrans"
 	]
 }
