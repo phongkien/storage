@@ -1,6 +1,6 @@
 {
 	"description": "List of known APIs",
-	"version": "1.0.7",
+	"version": "1.0.8",
 	"source_url": "https://raw.githubusercontent.com/phongkien/storage/master/known-api.json",
 	"version_info_url": "https://raw.githubusercontent.com/phongkien/storage/master/version.txt",
 	"supported_controls": [
@@ -11,7 +11,7 @@
 		"*.imMask",
 		"*.imText",
 		"*.imNumber",
-		"TagDlg.SSTab",
+		"TabDlg.SSTab",
 		"Spin.SpinButton",
 		"MSComDlg.CommonDialog",
 		"MSComctlLib.ProgressBar",
@@ -30,6 +30,19 @@
 		"MSMask.MaskEdBox",
 		"*.vsFlexGrid",
 		"MSAdodcLib.Adodc"
+	],
+	"implemented_controls": [
+		"VB.CommandButton",
+		"VB.ComboBox",
+		"VB.OptionButton",
+		"VB.Frame",
+		"VB.Form",
+		"VB.Label",
+		"VB.ListBox",
+		"VB.PictureBox",
+		"VB.TextBox",
+		"FPSpread.vaSpread",
+		"FPSpreadADO.fpSpread"
 	],
 	"known_ocxs": [
 		{
