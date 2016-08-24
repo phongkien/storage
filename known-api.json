@@ -1,49 +1,65 @@
 {
 	"description": "List of known APIs",
-	"version": "1.0.8",
+	"version": "1.0.9",
 	"source_url": "https://raw.githubusercontent.com/phongkien/storage/master/known-api.json",
 	"version_info_url": "https://raw.githubusercontent.com/phongkien/storage/master/version.txt",
-	"supported_controls": [
-		"VB.*",
-		"FPSpreadADO.fpSpread",
-		"FPSpread.vaSpread",
-		"*.imDate",
-		"*.imMask",
-		"*.imText",
-		"*.imNumber",
-		"TabDlg.SSTab",
-		"Spin.SpinButton",
-		"MSComDlg.CommonDialog",
-		"MSComctlLib.ProgressBar",
-		"MSComctlLib.StatusBar",
-		"MSComctlLib.Toolbar",
-		"Threed.SSPanel",
-		"Threed.SSCommand",
-		"Threed.SSFrame",
-		"Threed.SSOption",
-		"ComctlLib.ProgressBar",
-		"ComctlLib.StatusBar",
-		"ComctlLib.Toolbar",
-		"ComctlLib.ImageList",
-		"ComctlLib.TabStrip",
-		"MSGrid.Grid",
-		"MSMask.MaskEdBox",
-		"*.vsFlexGrid",
-		"MSAdodcLib.Adodc"
-	],
-	"implemented_controls": [
-		"VB.CommandButton",
-		"VB.ComboBox",
-		"VB.OptionButton",
-		"VB.Frame",
-		"VB.Form",
-		"VB.Label",
-		"VB.ListBox",
-		"VB.PictureBox",
-		"VB.TextBox",
-		"FPSpread.vaSpread",
-		"FPSpreadADO.fpSpread"
-	],
+	"supported_controls": {
+		"description": "List of controls that are supported, prefix wildcard (e.g. *.imDate) and suffix wildcard (e.g. VB.*) are supported.",
+		"controls": [
+			"VB.*",
+			"FPSpreadADO.fpSpread",
+			"FPSpread.vaSpread",
+			"*.imDate",
+			"*.imMask",
+			"*.imText",
+			"*.imNumber",
+			"TabDlg.SSTab",
+			"Spin.SpinButton",
+			"MSComDlg.CommonDialog",
+			"MSComctlLib.ProgressBar",
+			"MSComctlLib.StatusBar",
+			"MSComctlLib.Toolbar",
+			"Threed.SSPanel",
+			"Threed.SSCommand",
+			"Threed.SSFrame",
+			"Threed.SSOption",
+			"ComctlLib.ProgressBar",
+			"ComctlLib.StatusBar",
+			"ComctlLib.Toolbar",
+			"ComctlLib.ImageList",
+			"ComctlLib.TabStrip",
+			"MSGrid.Grid",
+			"MSMask.MaskEdBox",
+			"*.vsFlexGrid",
+			"MSAdodcLib.Adodc",
+			"TrueDBGrid60.TDBGrid",
+			"FPSpreadADO.fpSpreadPreview"
+		]
+	},
+	"known_unsupported_control": {
+		"description": "For any of the controls that listed as wildcard supported above in the supported that are not actually supported, add it to this list. For example, VB.* but we don't doesn't VB.FileListBox so we added to this list. Wildcard are not allowed here.",
+		"controls": [
+			"VB.DirListBox",
+			"VB.DriveListBox",
+			"VB.FileListBox"
+		]
+	},
+	"implemented_controls": {
+		"description": "List of supported controls that are implemented. Wildcard are not allowed here.",
+		"controls": [
+			"VB.CommandButton",
+			"VB.ComboBox",
+			"VB.OptionButton",
+			"VB.Frame",
+			"VB.Form",
+			"VB.Label",
+			"VB.ListBox",
+			"VB.PictureBox",
+			"VB.TextBox",
+			"FPSpread.vaSpread",
+			"FPSpreadADO.fpSpread"
+		]
+	},
 	"known_ocxs": [
 		{
 			"name": "ImDate",
@@ -167,7 +183,7 @@
 			"implemented": false
 		},
 		{
-			"name": "Micrsoft Data Bound Grid Control (e.g. MSGrid.Grid)",
+			"name": "Microsoft Data Bound Grid Control (e.g. MSGrid.Grid)",
 			"ocx": "dbgrid32.ocx",
 			"implemented": false
 		},
