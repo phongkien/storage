@@ -1,6 +1,6 @@
 {
 	"description": "List of known APIs",
-	"version": "1.0.10",
+	"version": "1.0.11",
 	"source_url": "https://raw.githubusercontent.com/phongkien/storage/master/known-api.json",
 	"version_info_url": "https://raw.githubusercontent.com/phongkien/storage/master/version.txt",
 	"supported_controls": {
@@ -13,6 +13,8 @@
 			"*.imMask",
 			"*.imText",
 			"*.imNumber",
+			"*.imPostal",
+			"*.imTime",
 			"TabDlg.SSTab",
 			"Spin.SpinButton",
 			"MSComDlg.CommonDialog",
