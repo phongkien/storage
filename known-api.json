@@ -1,6 +1,6 @@
 {
 	"description": "List of known APIs",
-	"version": "1.0.9",
+	"version": "1.0.10",
 	"source_url": "https://raw.githubusercontent.com/phongkien/storage/master/known-api.json",
 	"version_info_url": "https://raw.githubusercontent.com/phongkien/storage/master/version.txt",
 	"supported_controls": {
@@ -112,6 +112,11 @@
 			"implemented": false
 		},
 		{
+			"name": "ImPostal",
+			"ocx": "postal60.ocx",
+			"implemented": false
+		},
+		{
 			"name": "FPSpread 3.0",
 			"ocx": "fpspr30.ocx",
 			"implemented": true
@@ -119,7 +124,12 @@
 		{
 			"name": "FPSpread 7.0 (need to map to SpreadJS)",
 			"ocx": "fpspr70.ocx",
-			"implemented": false
+			"implemented": true
+		},
+		{
+			"name": "FPSpread 6.0",
+			"ocx": "spr32x60.ocx",
+			"implemented": true
 		},
 		{
 			"name": "FPSpread 7.0 (dependency?)",
