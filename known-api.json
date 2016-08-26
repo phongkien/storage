@@ -1,6 +1,6 @@
 {
 	"description": "List of known APIs",
-	"version": "1.0.11",
+	"version": "1.0.12",
 	"source_url": "https://raw.githubusercontent.com/phongkien/storage/master/known-api.json",
 	"version_info_url": "https://raw.githubusercontent.com/phongkien/storage/master/version.txt",
 	"supported_controls": {
@@ -21,6 +21,7 @@
 			"MSComctlLib.ProgressBar",
 			"MSComctlLib.StatusBar",
 			"MSComctlLib.Toolbar",
+			"MSComctlLib.ImageList",
 			"Threed.SSPanel",
 			"Threed.SSCommand",
 			"Threed.SSFrame",
@@ -237,7 +238,7 @@
 			"implemented": false
 		},
 		{
-			"name": "Microsoft Data Bound List Control (MSDBCtls.DBCombo, MSDBCtls.DBList, MSRDC.MSRDC",
+			"name": "Microsoft Data Bound List Control (MSDBCtls.DBCombo, MSDBCtls.DBList, MSRDC.MSRDC)",
 			"ocx": "dblist32.ocx",
 			"implemented": false
 		},
@@ -400,12 +401,18 @@
 			"name": "Microsoft PictureClip Control",
 			"ocx": "picclp32.ocx",
 			"implemented": false
+		},
+		{
+			"name": "Windows kernel",
+			"ocx": "kernel32.dll",
+			"implemented": false,
+			"supported": false
 		}
 	],
 	"supported_objects": [
 	],
 	"async_requests": [
-		"createdynaset","dbcreatedynaset","openrecordset"
+		"createdynaset","dbcreatedynaset","openrecordset","dbexecutesql","executesql","execute"
 	],
 	"transactions": [
 		"begintrans"
