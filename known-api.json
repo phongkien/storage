@@ -1,6 +1,6 @@
 {
 	"description": "List of known APIs",
-	"version": "1.0.12",
+	"version": "1.0.14",
 	"source_url": "https://raw.githubusercontent.com/phongkien/storage/master/known-api.json",
 	"version_info_url": "https://raw.githubusercontent.com/phongkien/storage/master/version.txt",
 	"supported_controls": {
@@ -36,7 +36,9 @@
 			"*.vsFlexGrid",
 			"MSAdodcLib.Adodc",
 			"TrueDBGrid60.TDBGrid",
-			"FPSpreadADO.fpSpreadPreview"
+			"FPSpreadADO.fpSpreadPreview",
+			"MSComctlLib.ListView",
+			"MSComctlLib.TreeView"
 		]
 	},
 	"known_unsupported_control": {
@@ -60,10 +62,17 @@
 			"VB.PictureBox",
 			"VB.TextBox",
 			"FPSpread.vaSpread",
-			"FPSpreadADO.fpSpread"
+			"FPSpreadADO.fpSpread",
+			"TabDlg.SSTab",
+			"VB.CheckBox"
 		]
 	},
 	"known_ocxs": [
+		{
+			"name": "Microsoft Calendar Control",
+			"ocx": "mscal.ocx"
+			"implemented": false
+		},
 		{
 			"name": "ImDate",
 			"ocx": "date60.ocx",
@@ -286,7 +295,7 @@
 		{
 			"name": "Microsoft Tabbed Dialog Control (SSTab)",
 			"ocx": "tabctl32.ocx",
-			"implemented": false
+			"implemented": true
 		},
 		{
 			"name": "TrueDBGrid",
@@ -405,6 +414,18 @@
 		{
 			"name": "Windows kernel",
 			"ocx": "kernel32.dll",
+			"implemented": false,
+			"supported": false
+		},
+		{
+			"name": "Component C1Size - Component resize?"
+			"ocx": "vslight6.ocx",
+			"implemented": false,
+			"supported": false
+				},
+		{
+			"name": "VideoSoft VSOCX 6.0 - resizer?"
+			"ocx": "vsocx6.ocx",
 			"implemented": false,
 			"supported": false
 		}
