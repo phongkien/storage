@@ -70,7 +70,7 @@
 	"known_ocxs": [
 		{
 			"name": "Microsoft Calendar Control",
-			"ocx": "mscal.ocx"
+			"ocx": "mscal.ocx",
 			"implemented": false
 		},
 		{
