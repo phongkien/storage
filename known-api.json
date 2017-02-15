@@ -418,13 +418,13 @@
 			"supported": false
 		},
 		{
-			"name": "Component C1Size - Component resize?"
+			"name": "Component C1Size - Component resize?",
 			"ocx": "vslight6.ocx",
 			"implemented": false,
 			"supported": false
 				},
 		{
-			"name": "VideoSoft VSOCX 6.0 - resizer?"
+			"name": "VideoSoft VSOCX 6.0 - resizer?",
 			"ocx": "vsocx6.ocx",
 			"implemented": false,
 			"supported": false
