@@ -1,6 +1,6 @@
 {
 	"description": "List of known APIs",
-	"version": "1.0.14",
+	"version": "1.0.15",
 	"source_url": "https://raw.githubusercontent.com/phongkien/storage/master/known-api.json",
 	"version_info_url": "https://raw.githubusercontent.com/phongkien/storage/master/version.txt",
 	"supported_controls": {
@@ -427,6 +427,31 @@
 			"name": "VideoSoft VSOCX 6.0 - resizer?",
 			"ocx": "vsocx6.ocx",
 			"implemented": false,
+			"supported": false
+		},
+		{
+			"name": "Advance Windows API",
+			"ocx": "advapi32.dll",
+			"implemented: false,
+			"supported": false
+		},
+		{
+			"name": "Oracle Object for OLE files",
+			"ocx": "oip9.tlb",
+			"implemented: false,
+			"supported": false
+		},
+		{
+			"name": "Remote Automation Connection Manager",
+			"ocx": "racreg32.dll",
+			"implemented: false,
+			"supported": false
+		},
+		{
+			"name": "IBM i Access for Windows PC5250 emulation APIs
+",
+			"ocx": "pcsapi32.dll",
+			"implemented: false,
 			"supported": false
 		}
 	],
